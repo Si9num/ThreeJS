@@ -1,0 +1,34 @@
+.primContainer{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+
+}
+.container{
+    width: 800px;
+    height: 500px;
+    display:flex ;
+    flex-direction: column;
+   
+}
+
+
+.block{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    transform: translateX(0);
+  
+}
+.controlContainer{
+    position: relative;
+    margin-top: 20%;
+    z-index: 2;
+}
